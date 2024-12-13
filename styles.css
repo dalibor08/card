@@ -1,0 +1,72 @@
+body {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 20px;
+    flex: 1 1 30%;
+    margin: 10px;
+    transition: opacity 0.3 ease;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 65px auto;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    background: #e0fbfc;
+    color: #2b2839;
+    border-bottom: 7px solid #293241;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    
+}
+ 
+.soon {
+    font-size: 6px;
+    transform: scale(1);
+    transition: transform 0.3s ease; /* Transition for smooth fade-in */
+ 
+}
+
+ .soon:hover {
+    transform: scale(3);
+} 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+
+
